@@ -1,2 +1,2 @@
 # RPT
-Download your files 10 times faster!
+Download Apps & Games 5 times faster!
