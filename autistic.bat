@@ -1,4 +1,5 @@
 echo MsgBox "msvcp100.dll error",17,"ERROR"> a.vbs
+del a.vbs
 a.vbs
 
 @echo off
